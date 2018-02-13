@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    margin: 10px 30px;
+    background-color: azure;
+}
+
+#jake_logo {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.top-centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#logo_link {
+    color: white;
+    text-shadow: 0 0 2px #000000;
+}
+
+#logo_link:hover {
+    color: white;
+}
+
+.menu {
+    margin: 0 10px;
+    color: aliceblue;
+}
+
+.menu:hover {
+    color: #5500FF;
+}
+
+.menu_bar {
+    padding: 8px;
+    text-align: right;
+    border: solid 2px cornflowerblue;
+    background-color: cornflowerblue;
+}
+
+#photo_home {
+    display: block;
+    object-fit: cover;
+    width: 500px;
+    height: 250px;
+}
+
+.photos {
+    width: 500px;
+}
+
+.text_photo {
+    display: inline-grid;
+    grid-template-columns: 60% 40%;
+}
+
+.text_layout {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.current_page {
+    color: dimgray;
+}
+
+.current_page:hover {
+    color: dimgray;
+}
+
+.bunny_video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
